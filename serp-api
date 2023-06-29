@@ -1,0 +1,48 @@
+https://www.perplexity.ai/search/3174d9fe-1b63-4b78-a415-79c0a27ee878?s=c
+
+halvorsson 9 things 
+
+
+
+@IndrajitRajtilak
+6 years ago (edited)
+00:23 - Spaced repetition
+00:56 - Find your own style
+01:17 - Good night's sleep
+1:36 - Focus
+1:57 - Pomodoro technique
+2:17 - Hard stuff first
+2:36 - Exercise, Meditate & Converse
+2:57 - Go places
+3:27 - Take fun seriously
+3:46 - Space your studies
+4:07 - 30% Read; 70% Recite
+4:34 - Instant self test
+4:57 - Don't force it
+
+
+adx Video ID / sCPN GCTiU2ZHVwI / ATHA YST9 VPV4 toro via https://www.youtube.com/watch?v=Rvey9g0VgY0
+adx Video ID / sCPN GCTiU2ZHVwI / ATHA YST9 VPV4 toro via https://www.youtube.com/watch?v=Rvey9g0VgY0
+
+
+
+
+const SerpApi = require('google-search-results-nodejs');
+const search = new SerpApi.GoogleSearch("secret_api_key");
+
+const params = {
+  engine: "google",
+  q: "handyman",
+  location: "Fort Lauderdale, Florida, United States",
+  google_domain: "google.com",
+  gl: "us",
+  hl: "en",
+  num: "50"
+};
+
+const callback = function(data) {
+  console.log(data);
+};
+
+// Show result as JSON
+search.json(params, callback);
